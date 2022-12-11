@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MapsActivity" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.90">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        tools:ignore="UselessParent">
+
+                        <android.widget.RadioButton
+                            android:id="@+id/radioButtonLeft"
+                            android:layout_width="0dp"
+                            android:layout_height="32dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/left_checked"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:onClick="onRadioButtonSelected"
+                            android:text="@string/leftButton"
+                            android:textColor="#FFEA00"
+                            tools:ignore="TouchTargetSizeCheck,UsingOnClickInXml" />
+
+                        <android.widget.RadioButton
+                            android:id="@+id/radioButtonRight"
+                            android:layout_width="0dp"
+                            android:layout_height="32dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/right_unchecked"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:onClick="onRadioButtonSelected"
+                            android:text="@string/rightButton"
+                            android:textColor="@color/black"
+                            tools:ignore="TouchTargetSizeCheck,UsingOnClickInXml" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <Button
+                    android:id="@+id/buttonIlanVer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_ilan_ver"
+                    android:text="@string/addAdvert"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="start|center_vertical"
+                    android:drawableStart="@drawable/ic_add_advert_24">
+
+                </Button>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/adverts_layout"
+                android:layout_gravity="bottom"
+                android:layout_weight="1.10"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layout_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical"
+                    android:visibility="invisible"
+                    tools:ignore="NestedWeights">
+
+                    <SearchView
+                        android:id="@+id/search"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/search_view_layout"
+                        android:iconifiedByDefault="false"
+                        android:queryHint="@string/searchJob" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
