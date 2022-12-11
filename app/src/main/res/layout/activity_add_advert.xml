@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFECEC"
+    android:orientation="vertical"
+    tools:context=".AddAdvert">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="@string/addAdvert"
+            app:titleTextColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/advertTitle"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/advertTitleHint"
+
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/advertDetail"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/advertDetailHint"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/firstAdress"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/buttonAddFirstAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_ilan_ver"
+                            android:drawableLeft="@drawable/ic_add_advert_24"
+                            android:gravity="start|center_vertical"
+                            android:layout_gravity="center|left"
+                            android:text="@string/addAdress"
+                            android:textSize="10sp"
+                            tools:ignore="RtlHardcoded,SmallSp,TouchTargetSizeCheck">
+
+                        </Button>
+
+                        <EditText
+                            android:id="@+id/firsAddressText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:paddingStart="10dp"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="20dp"
+                            tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+
+                    </FrameLayout>
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/lastAdress"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/buttonAddAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_ilan_ver"
+                            android:drawableLeft="@drawable/ic_add_advert_24"
+                            android:gravity="start|center_vertical"
+                            android:layout_gravity="center|left"
+                            android:text="@string/addAdress"
+                            android:textSize="10sp"
+                            tools:ignore="RtlHardcoded,SmallSp,TouchTargetSizeCheck">
+
+                        </Button>
+
+                        <EditText
+                            android:id="@+id/lastAddressText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:paddingStart="10dp"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="20dp"
+                            tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/packageSize"
+                    android:textColor="@color/black" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/large" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/small" />
+                </RadioGroup>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/addAdvert" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

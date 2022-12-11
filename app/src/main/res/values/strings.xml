@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">kuryeM</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="leftButton">Kurye Çağır</string>
+    <string name="rightButton">Paket Teslim Et</string>
+    <string name="searchJob">En Yakın İşi Bul</string>
+    <string name="addAdvert">İlan Ver</string>
+    <string name="advertTitle">İlan Başlığı</string>
+    <string name="advertTitleHint">Lütfen İlan Başlığını Giriniz.</string>
+    <string name="advertDetail">İlan Detayı</string>
+    <string name="advertDetailHint">Lütfen İlan Detayını Giriniz.</string>
+    <string name="firstAdress">Alınacak Adres</string>
+    <string name="lastAdress">Teslim Edilecek Adres</string>
+    <string name="searchAdress">Adresinizi aratınız...</string>
+    <string name="packageSize">Paket Büyüklüğü</string>
+    <string name="large">10 Kg\'den Fazla</string>
+    <string name="small">10 Kg\'den Az</string>
+    <string name="addAdress">Adres Ekle</string>
+    <string name="title_activity_pick_location">PickLocation</string>
+    <string name="title_activity_select_location">SelectLocation</string>
+    <string name="dialog_title">Lokasyon Seçimi</string>
+    <string name="firstLocation">Lütfen Paketin Alınacağı Konumu Seçiniz</string>
+    <string name="lastLocation">Lütfen Paketin Teslim Edileceği Konumu Seçiniz</string>
+    <string name="selectedAddress">Seçilen Adres</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="loginButton">GİRİŞ YAP</string>
+    <string name="createAccount">Henüz Bir Hesabınız Yok Mu?</string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295725034801",
+    "project_id": "kuryem-50a40",
+    "storage_bucket": "kuryem-50a40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295725034801:android:76052030fb2d73b44a5410",
+        "android_client_info": {
+          "package_name": "com.info.kuryem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295725034801-4tocjcip6oosvaan3vie6cfj1796g73a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNoAYbAUPjiALi5eqdiDLqJHMTWW6nFS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295725034801-4tocjcip6oosvaan3vie6cfj1796g73a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
