@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.info.kuryem.app-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-mergeDebugResources-31:/layout/activity_add_advert.xml",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_add_advert.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-mergeDebugResources-31:/layout/activity_maps.xml",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-mergeDebugResources-31:/layout/layout_dialog.xml",
+        "source": "com.info.kuryem.app-main-34:/layout/layout_dialog.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-mergeDebugResources-31:/layout/activity_login.xml",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-mergeDebugResources-31:/layout/card_view.xml",
+        "source": "com.info.kuryem.app-main-34:/layout/card_view.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-mergeDebugResources-31:/layout/activity_select_location.xml",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_select_location.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-mergeDebugResources-31:/layout/check_selected_location.xml",
+        "source": "com.info.kuryem.app-main-34:/layout/check_selected_location.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-mergeDebugResources-31:/layout/activity_splash_screen.xml",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_splash_screen.xml"
+    }
+]

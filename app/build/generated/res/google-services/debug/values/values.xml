@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">295725034801-4tocjcip6oosvaan3vie6cfj1796g73a.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">295725034801</string>
+    <string name="google_api_key" translatable="false">AIzaSyCNoAYbAUPjiALi5eqdiDLqJHMTWW6nFS8</string>
+    <string name="google_app_id" translatable="false">1:295725034801:android:76052030fb2d73b44a5410</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCNoAYbAUPjiALi5eqdiDLqJHMTWW6nFS8</string>
+    <string name="google_storage_bucket" translatable="false">kuryem-50a40.appspot.com</string>
+    <string name="project_id" translatable="false">kuryem-50a40</string>
+</resources>

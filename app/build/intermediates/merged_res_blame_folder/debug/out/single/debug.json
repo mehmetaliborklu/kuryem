@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/layout_card_view.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/layout/card_view.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/layout_check_selected_location.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/layout/check_selected_location.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_right_unchecked.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/right_unchecked.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/layout_activity_select_location.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_select_location.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_dialog_background.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/dialog_background.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_dialog_button_background.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/dialog_button_background.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_ic_baseline_add_location_alt_24.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/ic_baseline_add_location_alt_24.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_left_checked.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/left_checked.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/raw_motorcyle.json.flat",
+        "source": "com.info.kuryem.app-main-34:/raw/motorcyle.json"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/layout_activity_splash_screen.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/layout_activity_maps.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_ic_add_advert_24.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/ic_add_advert_24.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/layout_activity_add_advert.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_add_advert.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_right_checked.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/right_checked.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_button_ilan_ver.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/button_ilan_ver.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.info.kuryem.app-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_dialog_title_background.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/dialog_title_background.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_bg_round.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/bg_round.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_left_unchecked.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/left_unchecked.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/layout_activity_login.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/layout_layout_dialog.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/layout/layout_dialog.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_adverts_layout.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/adverts_layout.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_search_view_layout.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/search_view_layout.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.info.kuryem.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.info.kuryem.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.info.kuryem.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    }
+]

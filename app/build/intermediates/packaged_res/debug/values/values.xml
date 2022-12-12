@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="addAdress">Adres Ekle</string>
+    <string name="addAdvert">İlan Ver</string>
+    <string name="advertDetail">İlan Detayı</string>
+    <string name="advertDetailHint">Lütfen İlan Detayını Giriniz.</string>
+    <string name="advertTitle">İlan Başlığı</string>
+    <string name="advertTitleHint">Lütfen İlan Başlığını Giriniz.</string>
+    <string name="app_name">kuryeM</string>
+    <string name="createAccount">Henüz Bir Hesabınız Yok Mu?</string>
+    <string name="default_web_client_id" translatable="false">295725034801-4tocjcip6oosvaan3vie6cfj1796g73a.apps.googleusercontent.com</string>
+    <string name="dialog_title">Lokasyon Seçimi</string>
+    <string name="firstAdress">Alınacak Adres</string>
+    <string name="firstLocation">Lütfen Paketin Alınacağı Konumu Seçiniz</string>
+    <string name="gcm_defaultSenderId" translatable="false">295725034801</string>
+    <string name="google_api_key" translatable="false">AIzaSyCNoAYbAUPjiALi5eqdiDLqJHMTWW6nFS8</string>
+    <string name="google_app_id" translatable="false">1:295725034801:android:76052030fb2d73b44a5410</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCNoAYbAUPjiALi5eqdiDLqJHMTWW6nFS8</string>
+    <string name="google_storage_bucket" translatable="false">kuryem-50a40.appspot.com</string>
+    <string name="large">10 Kg\'den Fazla</string>
+    <string name="lastAdress">Teslim Edilecek Adres</string>
+    <string name="lastLocation">Lütfen Paketin Teslim Edileceği Konumu Seçiniz</string>
+    <string name="leftButton">Kurye Çağır</string>
+    <string name="loginButton">GİRİŞ YAP</string>
+    <string name="no">Hayır</string>
+    <string name="packageSize">Paket Büyüklüğü</string>
+    <string name="project_id" translatable="false">kuryem-50a40</string>
+    <string name="rightButton">Paket Teslim Et</string>
+    <string name="searchAdress">Adresinizi aratınız...</string>
+    <string name="searchJob">En Yakın İşi Bul</string>
+    <string name="selectedAddress">Seçilen Adres</string>
+    <string name="small">10 Kg\'den Az</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_pick_location">PickLocation</string>
+    <string name="title_activity_select_location">SelectLocation</string>
+    <string name="yes">Evet</string>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <style name="Theme.KuryeM" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
